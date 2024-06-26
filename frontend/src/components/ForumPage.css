@@ -1,0 +1,119 @@
+.forum-page .forum-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.forum-page h1 {
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.forum-page .forum-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forum-page .input-title,
+.forum-page .input-content {
+    width: 90%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    background-color: #f9f9f9;
+}
+
+.forum-page .input-title:focus,
+.forum-page .input-content:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+.forum-page .input-content {
+    height: 150px;
+    resize: none;
+}
+
+.forum-page .btn-submit {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forum-page .btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.forum-page .btn-toggle-posts {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forum-page .btn-toggle-posts:hover {
+    background-color: #218838;
+}
+
+.forum-page .posts-container {
+    margin-top: 30px;
+}
+
+.forum-page .post-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forum-page .post-card h3 {
+    margin-top: 0;
+}
+
+.forum-page .btn-delete,
+.forum-page .btn-like,
+.forum-page .btn-dislike {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+    /* Adjust margin as needed */
+}
+
+.forum-page .btn-delete:last-child,
+.forum-page .btn-like:last-child,
+.forum-page .btn-dislike:last-child {
+    margin-right: 0;
+    /* Remove margin from the last button */
+}
+
+.forum-page .btn-delete:hover,
+.forum-page .btn-like:hover,
+.forum-page .btn-dislike:hover {
+    background-color: #c82333;
+}
